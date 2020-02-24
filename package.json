@@ -4,7 +4,9 @@
   "description": "CircleCI comments on github",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p src",
     "lint": "tslint -p src",
